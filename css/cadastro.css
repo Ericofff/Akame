@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    color: #fff;
+}
+
+.area-cadastro{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 35px;
+}
+/* cadastro form */
+.cadastro .input-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+.cadastro .input-group input{
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+p{
+    font-size: .8em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+p a{
+    text-decoration: none;
+    color: #8AA3FB;
+}
+#pass{
+    width: 85%;
+}
+#view {
+    position: absolute;
+    width: 15%;
+    margin-top: 10px;
+    height: 44px;
+    border: none;
+    outline: none;
+    background-color: #ABABAB;
+}
+#view i{
+    text-align: center;
+    font-size:1.5em;
+    padding: 1rem;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#cadastro-button{
+    padding: 10px;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.4em;
+    
+}
+.cadastro img{
+    width: 20rem;
+    height: auto;
+    
+}
+
+i{
+    font-size: 10rem;
+    margin-left: -30px;
+    cursor: pointer;
+}

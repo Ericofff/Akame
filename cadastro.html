@@ -7,7 +7,7 @@
     <title>Akame</title>
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro.css">
     <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css” />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -16,21 +16,21 @@
 
 </head>
 <body>
-    <section class="area-login">
-        <div class="login">
+    <section class="area-cadastro">
+        <div class="cadastro">
             <div>
                 <img src="img/logo.png" alt="Logo do site">
             </div>
             <div class="input-group">
                 <input type="text" name="nome" placeholder="Email" autofocus>
+                <input type="password" id="confirmPassword" name="password" placeholder="Sua senha">
                 <div>
-                    <input type="password" id="pass" name="senha" placeholder="Sua senha">
+                    <input type="password" id="pass" name="pass" placeholder="Confirme sua senha">
                     <button id="view"><i class="uil uil-eye" onclick="showPassword()"></i></button>
                 </div>
-                
-            
-                <p>Não tem uma conta? <a href="#"> Faça seu cadastro aqui!</a></p>
-                <button id="login-button">LOGIN</button>
+                <div class="cadastro-continue"></div>
+                <p>Já tem uma conta? <a href="#"> Faça seu login aqui!</a></p>
+                <button id="cadastro-button">CADASTRAR</button>
             </div >
         </div>
     </section>
