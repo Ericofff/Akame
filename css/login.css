@@ -44,10 +44,12 @@ body{
     padding: 10px;
 }
 
-input::selection{
-    background-color: $f;
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
-
 p{
     font-size: .8em;
     text-align: center;
