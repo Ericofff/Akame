@@ -12,7 +12,7 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     color: #fff;
-    ;
+    height: 100vw;
 }
 
 nav{
@@ -52,6 +52,11 @@ nav img{
     margin-bottom: 10px;
 }
 .caroussel{
-    margin: 0 10px 0 10px;
+    margin: 3rem 10px 3rem 10px !important;
 }
 
+.dropdown-item i{
+    position: absolute;
+    right: 3%;
+    border-radius: 100%;
+}
