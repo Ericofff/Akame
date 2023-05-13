@@ -33,12 +33,10 @@ nav img{
 .showdrop{
     transition: 1s !important;
     display: block !important;
-    opacity: 1 !important;
-    padding: 0  0 0 10px !important;
 }
 
 .dropdown{
-    opacity: 0;
+    padding: 0  0 0 10px !important;
     display: none;
     margin-top: -3rem;
     list-style: none;
@@ -67,8 +65,39 @@ nav img{
 
 .card-group{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+}
+.card-item img{
+    position: relative;
+    left: 13%;
+    width: 10rem;
+    object-fit: cover;
+}
+.card-item{
+    display: flex;
+    align-items: center;
+    width: 12rem !important;
+    margin-bottom: 1rem;
+}
+.card-item a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.card-item{
+    flex-direction: column;
+}
+.new{
+    display: flex;
+    justify-content: space-between !important;
+}
+.card-item .title-card{
+    display: flex;  
+    justify-content: end;
+    width: 100%;
+    padding: 1rem;
 }
