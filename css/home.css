@@ -15,6 +15,10 @@ body{
     height: 100vw;
 }
 
+section, header, nav{
+    overflow-x: hidden;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -59,4 +63,12 @@ nav img{
     position: absolute;
     right: 3%;
     border-radius: 100%;
+}
+
+.card-group{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
