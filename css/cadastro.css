@@ -15,10 +15,8 @@ body{
 
 .area-cadastro{
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 .cadastro{
     display: flex;
@@ -26,7 +24,7 @@ body{
     align-items: center;
     width: auto;
     height: auto;
-    padding: 35px;
+    padding: 0 35px;
 }
 /* cadastro form */
 .cadastro .input-group{
@@ -58,6 +56,7 @@ p{
 }
 p a{
     text-decoration: none;
+    margin-left: 10px;
     color: #8AA3FB;
 }
 #pass{
@@ -94,6 +93,7 @@ p a{
     
 }
 .cadastro img{
+    margin-top: -2rem;
     width: 20rem;
     height: auto;
     
