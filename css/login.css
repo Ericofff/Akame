@@ -26,13 +26,13 @@ body{
     align-items: center;
     width: auto;
     height: auto;
-    padding: 0 35px;
+    /* padding: 0 35px; */
 }
 /* login form */
 .login .input-group{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     padding: 0;
 }
 .login .input-group input{
@@ -51,7 +51,7 @@ input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 p{
-    font-size: .8em;
+    font-size: .7em;
     text-align: center;
     padding: 10px;
     margin: 10px 0 10px 0;
