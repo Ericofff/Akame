@@ -26,7 +26,7 @@ body{
     align-items: center;
     width: auto;
     height: auto;
-    /* padding: 0 35px; */
+    padding: 0 35px;
 }
 /* login form */
 .login .input-group{
@@ -51,7 +51,7 @@ input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 p{
-    font-size: .7em;
+    font-size: .8em;
     text-align: center;
     padding: 10px;
     margin: 10px 0 10px 0;
