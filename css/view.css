@@ -25,6 +25,7 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-bottom: 1px solid #fff;
 }
 
 nav img{
@@ -115,3 +116,79 @@ footer{
     font-size: .7em;
 }
 /* FIM DO FOOTER */
+
+/* EXIBIÇÃO DO PRODUTO */
+
+.content-show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.carousel{
+    margin: 3rem 10px 3rem 10px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    margin-top: 20px !important;
+    height: auto !important;
+    width: auto !important;
+    padding: .4rem !important;
+    border-radius: 50% !important;
+}
+
+.carousel-indicators{
+    margin-bottom: -1rem !important;
+}
+
+
+.content-title{
+    text-align: center;
+    max-width: 80%;
+}
+
+.content-title .title{
+    font-size: 2em;
+}
+
+.content-size .sizes {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-size .sizes p{
+    margin: 0 10px 30px 10px;
+    background-color: #969696;
+    padding: 3px 12px;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.content-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+.content-buy .buy-title a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #385de1;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.content-buy .buy-title span{
+    font-size: .8em;
+}
+
+.content-buy svg{
+    margin-left: 10px;
+    transform: rotateY(180deg)
+}
