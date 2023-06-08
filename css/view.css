@@ -230,3 +230,25 @@ footer{
 .card-item .card-title{
     margin-top: 20px;
 }
+
+/* RADIO */
+
+.content-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.content-size .sizes label{
+    font-size: 1.5em;
+    margin-right:20px;
+}
+
+input[type='radio']{
+    width: 20px;
+    background-color: red;
+}
+input[type='radio']:checked{
+    background-color: red;
+}
