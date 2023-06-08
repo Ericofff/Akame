@@ -10,13 +10,9 @@
 body{
     background-color: #000;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    
     color: #fff;
     height: 100vw;
-}
-
-section, header, nav{
-    overflow-x: hidden;
 }
 
 /* INICIO HEADER */
@@ -25,6 +21,8 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
 }
 
 nav img{
@@ -113,120 +111,78 @@ footer{
 }
 /* FIM DO FOOTER */
 
-/* EXIBIÇÃO DO PRODUTO */
-
-.content-show{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem 0;
-}
-
-.carousel{
-    margin: 3rem 10px 3rem 10px !important;
-}
-
-.carousel-indicators [data-bs-target]{
-    margin-top: 20px !important;
-    height: auto !important;
-    width: auto !important;
-    padding: .4rem !important;
-    border-radius: 50% !important;
-}
-
-.carousel-indicators{
-    margin-bottom: -1rem !important;
-}
-
-
-.content-title{
-    text-align: center;
-    max-width: 80%;
-}
-
-.content-title .title{
-    font-size: 2em;
-}
-
-.content-size .sizes {
-    display: flex;
-    flex-direction: row;
-}
-
-.content-size .sizes p{
-    margin: 0 10px 30px 10px;
-    background-color: #969696;
-    padding: 3px 12px;
-    border-radius: 9px;
-    color: #fff;
-    font-size: 1.2em;
-}
+/* MAIN */
 
 .content-buy{
+    padding: 2rem 0 1rem 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    align-items: stretch;
+    justify-content: start;
+    flex-direction: row-reverse;
     text-align: center;
     width: 100%;
 }
-.content-buy .buy-title a{
+.content-buy .buy-title p{
     text-decoration: none;
     color: #fff;
-    padding: 10px 30px;
-    background-color: #385de1;
+    margin: 0;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .content-buy .buy-title span{
-    font-size: .8em;
+    font-size: 1.1em;
 }
-
 .content-buy svg{
     margin-left: 10px;
     transform: rotateY(180deg)
 }
 
-/* RECOMEND */
+.cards .card-text{
+    text-align: center;
+}
+
 .card-group{
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-}
-.card-item img{
-    position: relative;
-    width: 10rem;
-    object-fit: cover;
-
-}
-.card-item{
-    display: flex;
-    align-items: center;
-    max-width: 12rem !important;
-    margin-bottom: 1rem;
     flex-direction: column;
 }
-.card-item a{
+
+.card-group .card-items{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    background-color: #252525;
+    margin: 15px 0;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.1em;
+}
+
+.card-group .card-items img{
+    width: 5rem;
+}
+
+.recomended-buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.recomended-buy .buy-recomended a{
     text-decoration: none;
     color: #fff;
-
+    padding: 10px 30px;
+    background-color: #385de1;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
-.new{
-    display: flex;
-    justify-content: space-between !important;
-}
-.card-item .title-card{
-    display: flex;  
-    justify-content: end;
-    width: 100%;
-    padding: 1rem;
-}
-
-.card-item .card-title{
-    margin-top: 20px;
+.recomended-buy span{
+    font-size: 1.5em;
 }
