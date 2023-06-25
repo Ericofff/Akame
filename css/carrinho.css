@@ -142,6 +142,8 @@ footer{
     text-align: center;
 }
 
+
+
 .card-group{
     display: flex;
     justify-content: center;
@@ -184,12 +186,49 @@ footer{
 .recomended-buy .buy-recomended a{
     text-decoration: none;
     color: #fff;
-    padding: 10px 30px;
+    padding: 7px 18px;
     background-color: #385de1;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .recomended-buy span{
     font-size: 1.5em;
+}
+
+.card-text input{
+    background: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none;
+    margin: 0.5rem;
+    padding: 5px 0px 0px 5px;
+    width: 100%;
+}
+
+.card-text p{
+    margin-bottom: 0;
+}
+
+#titl{
+    font-size: 1.2em;
+}
+
+.barro{
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: start;
+    margin-bottom: 1rem;
+    
+}
+
+.barro input{
+    margin: 0 0 .5rem 0rem;
+}
+
+.barro .n{
+    width: 5rem;
 }
