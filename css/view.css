@@ -196,7 +196,6 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width: auto;
     background-color: #00000096;
 }
 .card-item img{
@@ -208,10 +207,10 @@ footer{
 .card-item{
     display: flex;
     align-items: center;
-    max-width: 12rem !important;
     margin-bottom: 1rem;
     flex-direction: column;
 }
+
 .card-item a{
     text-decoration: none;
     color: #fff;
@@ -284,15 +283,71 @@ footer{
     margin-bottom: 2rem;
 }
 
-.content-size .sizes label{
-    font-size: 1.5em;
-    margin-right:20px;
-}
+.input-option356 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .input-option356:after {
+    content: "";
+    clear: both;
+  }
+  
+  .radio {
+    border: 1px solid #252525;
+    box-sizing: border-box;
+    float: left;
+    height: 40px;
+    position: relative;
+    width: 40px;
+    border-radius: 20%;
+  }
+  
+  .radio + .radio {
+    margin-left: 25px;
+  }
+  
+  .radio label {
+    background: #252525 no-repeat center center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
 
-input[type='radio']{
-    width: 20px;
-    background-color: red;
-}
-input[type='radio']:checked{
-    background-color: red;
-}
+    white-space: nowrap;
+  }
+  
+  .radio label span {
+    z-index: 1;
+  }
+  .radio label input[type=radio] {
+    all: unset;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20%;
+
+  }
+  .radio label input[type=radio]:checked {
+    background-color: #030303;
+  }
+  .radio label input[type=radio]:checked + span{
+    color: #ffffff;
+  }
+
+  /* slider */
+
+  .slick-slide{
+    margin: 1rem;
+    width: auto !important;
+  }
+  
+  .center{
+  }

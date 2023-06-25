@@ -167,7 +167,7 @@ footer{
 .card-group .card-items .card-info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
 }
@@ -227,6 +227,10 @@ footer{
     
 }
 
+.card-info p{
+    margin-bottom: 0;
+}
+
 .barro input{
     margin: 0 0 .5rem 0rem;
 }
@@ -235,3 +239,42 @@ footer{
     width: 5rem;
 }
 
+
+
+/* RADIO */
+
+.radio-custom {
+    position: relative;
+    top: 50%;
+    margin: 0 10px;
+}
+
+
+.card-group input{
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+}
+
+input[type=radio] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 2px;
+    vertical-align: bottom;
+  }
+  
+  input[type=radio]:checked + label::after {
+    content: '';
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+  }
