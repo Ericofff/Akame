@@ -346,7 +346,7 @@ footer{
 
   .slick-slide{
     margin: 1rem;
-    width: auto !important;
+    width: 150px !important;
   }
   
   .center{
