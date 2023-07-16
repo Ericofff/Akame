@@ -64,7 +64,7 @@ nav img{
 
 .card-group{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -177,3 +177,17 @@ footer{
     justify-content: space-around;
     align-items: center;
 } */
+
+@media (MAX-width: 360px){
+    .footer-img img{
+        width: 1rem;
+    }
+
+  }
+
+  @media (max-width: 414px){
+    .footer-img img{
+        width: 5rem;
+    }
+
+  }

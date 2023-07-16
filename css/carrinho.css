@@ -160,20 +160,20 @@ footer{
     margin: 15px 0;
     width: 100%;
     padding: 1rem 0;
-    font-size: 1.1em;
+    font-size: .7em;
     position: relative;
 }
 
 .card-group .card-items .card-info {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
+    align-items: flex-start;
+    flex-direction: column;
     width: 100%;
 }
 
 .card-group .card-items img{
     width: 5rem;
+    margin-right: 20px
 }
 
 .recomended-buy{
@@ -235,3 +235,8 @@ footer{
     width: 5rem;
 }
 
+.vl{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
