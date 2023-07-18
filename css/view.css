@@ -25,6 +25,8 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
 }
 
 nav img{

@@ -64,7 +64,7 @@ footer{
     margin-top: 1.5rem;
     background-color: #000;
     width: 100%;
-    height: 10rem;
+    height: auto;
 }
 
 .footer-items{
@@ -160,7 +160,7 @@ footer{
     margin: 15px 0;
     width: 100%;
     padding: 1rem 0;
-    font-size: .7em;
+    font-size: .9em;
     position: relative;
 }
 
@@ -173,7 +173,8 @@ footer{
 
 .card-group .card-items img{
     width: 5rem;
-    margin-right: 20px
+    margin-right: 20px;
+    margin-left: 10px;
 }
 
 .recomended-buy{
@@ -240,3 +241,17 @@ footer{
     right: 10px;
     bottom: 0;
 }
+
+@media (max-width: 320px){
+    .footer-img img{
+        width: 5rem;
+    }
+
+  }
+
+  @media (max-width: 414px){
+    .footer-img img{
+        width: 7rem;
+    }
+
+  }
