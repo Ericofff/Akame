@@ -171,6 +171,49 @@ footer{
     width: 5rem;
 }
 
+/* adicionar camiseta */
+
+.card-text input{
+    background: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none;
+    margin: 0.5rem;
+    padding: 5px 0px 0px 5px;
+    width: 100%;
+}
+
+.card-text p{
+    margin-bottom: 0;
+}
+
+#titl{
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.barro{
+    width: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: start;
+    margin-bottom: 1rem;
+    
+}
+
+
+.barro input{
+    margin: 0 0 .5rem 0rem;
+}
+
+.barro .n{
+    width: 5rem;
+}
+
+
+
 /* CHECKBOX RECT */
 
 @media (max-width: 320px){
