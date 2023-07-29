@@ -212,6 +212,142 @@ footer{
     width: 5rem;
 }
 
+.container {
+    position: relative;
+  }
+  
+  input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .custom-file-label {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .custom-file-label:hover {
+    background-color: #ccc;
+    color: black;
+    border-color: #ccc;
+  }
+
+
+  /* radio */
+  #new{
+    margin-right: 20px;
+  }
+
+  .radio-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-input {
+    display: none;
+  }
+  
+  .radio-label {
+    position: relative;
+    padding-left: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .radio-label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+  
+  .radio-input:checked + .radio-label:before {
+    background-color: white;
+    animation: pulse 1s infinite; /* Aplicamos a animação */
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: translateY(-50%) scale(1); /* Bola não se move na animação */
+    }
+    50% {
+      transform: translateY(-50%) scale(0.8); /* Bola menor no meio da animação */
+    }
+  }
+  
+  /* Estilo para o radio button não selecionado */
+  .radio-input:not(:checked) + .radio-label:before {
+    background-color: transparent;
+  }
+  /* fim radio */
+
+  /* botao enviar */
+  
+  .enviar {
+    margin: 2rem;
+  }
+
+  .btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .btn .btn-text {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .water {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent);
+    background-size: 100% 100%;
+    animation: waterAnimation 5s ease-in-out infinite;
+  }
+  
+  @keyframes waterAnimation {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 20px -20px;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  /* fim do botao */
+
 
 
 /* CHECKBOX RECT */
